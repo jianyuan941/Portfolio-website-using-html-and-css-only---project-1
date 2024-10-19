@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+    margin:0;  /*this removes any extra space (margin) outside elements */
+    padding:0; /*this removes any extra space (padding) outside elements */
+    box-sizing: border-box; /*This changes how the width and height of elements are calculated. It makes sure that padding and borders are included in the total width and height, so elements are easier to size correctly.*/
     text-decoration: none;
     border: none;
     outline: none;
